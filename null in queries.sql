@@ -1,4 +1,5 @@
-select 1+null, 1-null,1*null,1/null
+/*Работа с null*/
+select 1+null, 1-null,1*null,1/null --null,null,null,null
 from dual;
 
 with 
@@ -11,7 +12,7 @@ smpl
   union all
   select NULL from dual
 )
-select min(a), max(a), avg(a), sum(a)
+select min(a), max(a), avg(a), sum(a) -- 1, 2, 1.5, 3
 from smpl;
 
 with 
