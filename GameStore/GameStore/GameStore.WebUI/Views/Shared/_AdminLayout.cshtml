@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.9.1.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>  @*Внешний вид сообщений об ошибках 
+    остается тем же самым, поскольку классы CSS, которые используются при серверной проверке достоверности, 
+    также применяются при проверке на стороне клиента, однако отклик будет практически мгновенным 
+    и не требующим отправки запроса серверу.*@
+    <title></title>x
+</head>
+<body>
+    <div>
+        @if (TempData["message"] != null)
+        {
+            <div class="alert alert-success">@TempData["message"]</div>
+        }
+        @RenderBody()
+    </div>
+</body>
+</html>
