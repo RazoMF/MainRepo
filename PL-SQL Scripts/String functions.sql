@@ -14,4 +14,4 @@ select
   ,lpad('abcd',10,'0')
   ,rpad('abcd',10,'0')
    
-from dual
+from dual;

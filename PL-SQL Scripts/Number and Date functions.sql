@@ -1,4 +1,4 @@
-/*Функции по работе с числами и датами.*/
+/*Функции по работе с числами*/
 select
      round(3.5)     --4
     ,round(3.1415,2)--3.14
@@ -8,6 +8,8 @@ select
     ,ceil(3.1415)   --4 --целая часть +1
 from dual;
 
+--Alter session set nls_date_format='DD-MON-YYYY'
+/*Функции по работе с датами*/
 select
      sysdate + 1
     ,sysdate - 1.5
@@ -26,4 +28,3 @@ select
     ,months_between(to_date('30.11.2017', 'dd.mm.yyyy'),to_date('31.01.2017', 'dd.mm.yyyy')) 
 from dual;
 
---Alter session set nls_date_format='DD-MON-YYYY'

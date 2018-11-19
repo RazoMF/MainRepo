@@ -13,8 +13,8 @@ insert into kk_rate values (to_date('22.03.2017','dd.mm.yyyy'), 978, 71.87);
 insert into kk_rate values (to_date('22.03.2017','dd.mm.yyyy'), 978, 71.81);
 
 insert into kk_payment values (to_date('23.03.2017','dd.mm.yyyy'), 840, 100,null );
-truncate table kk_payment ;
-select * from kk_payment 
+--truncate table kk_payment ; truncate table kk_rate ;
+--select * from kk_payment ; select * from kk_rate ;
 
 create table kk_payment
 (

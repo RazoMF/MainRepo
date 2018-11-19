@@ -1,4 +1,4 @@
-/*MERGE данных о клиентах. Хотим смерджить две таблички*/
+/*MERGE данных о клиентах. Хотим смерджить в таблицу kk_clients табличку kk_clients_delta*/
 Create table kk_clients (id integer, name varchar2(60), passport char(11));
 Create table kk_clients_delta (id integer, firstname varchar2(30), lastname varchar2(30), passport char(11));
 

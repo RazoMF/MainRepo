@@ -1,0 +1,22 @@
+public class Examples
+    {
+        void MetCastAs(object obj)
+        {
+            {
+                //Operator "as" never throw an InvalidCastException, if cast fails returns null
+                MyCustomObject myObject1 = obj as MyCustomObject; 
+            }
+            //Equivalent to:
+            {
+                MyCustomObject myObject1;
+                try
+                {
+                    myObject1 = (MyCustomObject)obj;
+                }
+                catch (InvalidCastException ex)
+                {
+                    myObject1 = null;
+                }
+            }
+        }
+    }

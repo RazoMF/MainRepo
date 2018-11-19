@@ -1,5 +1,5 @@
 /* Задача: Требуется подсчитать количество вхождений подстроки в строку? */
-create or replace function f_count_substr (in_string in varchar2
+create /*or replace*/ function f_count_substr (in_string in varchar2
                                           ,in_substring in varchar2) 
 return integer is
   v_result integer := 0;
