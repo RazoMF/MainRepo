@@ -2,6 +2,7 @@ This project is a copy of project which was taken from professorweb.com.
 This is a sample of a web market.
 All project is under unit tests.
 
-Этот проект есть копия проекта с сайта professorweb.com. 
-Проект является примером интернет магазина.
-Весь проект покрыт модульными тестами.
+ГќГІГ®ГІ ГЇГ°Г®ГҐГЄГІ ГҐГ±ГІГј ГЄГ®ГЇГЁГї ГЇГ°Г®ГҐГЄГІГ  Г± Г±Г Г©ГІГ  professorweb.com. 
+ГЏГ°Г®ГҐГЄГІ ГїГўГ«ГїГҐГІГ±Гї ГЇГ°ГЁГ¬ГҐГ°Г®Г¬ ГЁГ­ГІГҐГ°Г­ГҐГІ Г¬Г ГЈГ Г§ГЁГ­Г .
+Г‚ГҐГ±Гј ГЇГ°Г®ГҐГЄГІ ГЇГ®ГЄГ°Г»ГІ Г¬Г®Г¤ГіГ«ГјГ­Г»Г¬ГЁ ГІГҐГ±ГІГ Г¬ГЁ.
+test
